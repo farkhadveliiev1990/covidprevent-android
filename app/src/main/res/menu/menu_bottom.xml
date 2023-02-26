@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_friends"
+        android:checked="true"
+        android:icon="@drawable/ic_qr_scann"
+        app:showAsAction="ifRoom"
+        android:title="@string/bottom_my_id" />
+
+    <item
+        android:id="@+id/action_quiz"
+        android:checked="true"
+        android:icon="@drawable/ic_consultant"
+        app:showAsAction="ifRoom"
+        android:title="@string/bottom_quiz" />
+
+    <item
+        android:id="@+id/action_statistics"
+        android:checked="true"
+        android:icon="@drawable/bottom_chart"
+        app:showAsAction="ifRoom"
+        android:title="@string/bottom_risk_zone" />
+
+    <item
+        android:id="@+id/action_profile"
+        android:checked="true"
+        android:icon="@drawable/bottom_profile"
+        app:showAsAction="ifRoom"
+        android:title="@string/bottom_profile" />
+</menu>

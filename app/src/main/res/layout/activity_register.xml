@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreyDestination">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="768"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="240"
+            android:weightSum="240"
+            android:orientation="vertical"
+            android:background="@drawable/green_8_gradient">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="150"
+                android:gravity="center">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_register_profile"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_profile_template"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="450" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="80"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text.black.14"
+                    android:text="@string/signup_goto_login_comment"
+                    android:gravity="start"/>
+
+                <TextView
+                    android:id="@+id/txt_register_goto_login"
+                    style="@style/text.black.18"
+                    android:text="@string/signup_goto_login"
+                    android:gravity="start"
+                    android:textColor="@color/colorTextBlue"
+                    android:layout_marginStart="8dp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llt_register_Location"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="768"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="150" />
+
+        <LinearLayout
+            style="@style/llt_v.525"
+            android:weightSum="525"
+            android:background="@drawable/white_8"
+            android:elevation="4dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="96"
+                android:gravity="center">
+
+                <TextView
+                    style="@style/text.black.28"
+                    android:text="@string/signup"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/llt_line_h"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="375"
+                android:weightSum="100"
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="12" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        style="@style/text.black.14"
+                        android:text="@string/txt_province_district" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="24" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        style="@style/text.black.16"
+                        android:layout_marginStart="12dp"
+                        android:text="@string/register_province" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:padding="4dp"
+                        android:background="@drawable/grey_8_outline">
+
+                        <Spinner
+                            android:id="@+id/spn_register_province"
+                            android:layout_width="match_parent"
+                            android:layout_height="36dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="16" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        style="@style/text.black.16"
+                        android:layout_marginStart="12dp"
+                        android:text="@string/register_district" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:padding="4dp"
+                        android:background="@drawable/grey_8_outline">
+
+                        <Spinner
+                            android:id="@+id/spn_register_district"
+                            android:layout_width="match_parent"
+                            android:layout_height="36dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llt_register_finish"
+                style="@style/llt_v.56"
+                android:background="@drawable/yellow_8_bottom_round" >
+
+                <TextView
+                    style="@style/text.white.20"
+                    android:text="@string/signup_finish"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llt_register_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="768"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="150" />
+
+        <LinearLayout
+            style="@style/llt_v.525"
+            android:weightSum="525"
+            android:background="@drawable/white_8"
+            android:elevation="4dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="96"
+                android:gravity="center">
+
+                <TextView
+                    style="@style/text.black.28"
+                    android:text="@string/signup"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/llt_line_h"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="85"
+                android:gravity="center">
+
+                <TextView
+                    style="@style/text.black.16"
+                    android:singleLine="false"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:text="@string/signup_comment" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/llt_v.45"
+                android:background="@drawable/grey_8_outline"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginStart="8sp"
+                        android:src="@drawable/ic_mail_outline" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/llt_line_v" />
+
+                <EditText
+                    android:id="@+id/edt_register_email"
+                    style="@style/edit.black.12"
+                    android:hint="@string/signup_email"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20" />
+
+            <LinearLayout
+                style="@style/llt_v.45"
+                android:background="@drawable/grey_8_outline"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginStart="8sp"
+                        android:src="@drawable/ic_account_user" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/llt_line_v" />
+
+                <EditText
+                    android:id="@+id/edt_register_username"
+                    style="@style/edit.black.12"
+                    android:hint="@string/signup_username"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20" />
+
+            <LinearLayout
+                style="@style/llt_v.45"
+                android:background="@drawable/grey_8_outline"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginStart="8sp"
+                        android:src="@drawable/ic_password_visibility" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/llt_line_v" />
+
+                <EditText
+                    android:id="@+id/edt_register_password"
+                    style="@style/edit.black.12"
+                    android:inputType="textPassword"
+                    android:hint="@string/signup_password"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20" />
+
+            <LinearLayout
+                style="@style/llt_v.45"
+                android:background="@drawable/grey_8_outline"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginStart="8sp"
+                        android:src="@drawable/ic_password_visibility" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/llt_line_v" />
+
+                <EditText
+                    android:id="@+id/edt_register_confirm_password"
+                    style="@style/edit.black.12"
+                    android:inputType="textPassword"
+                    android:hint="@string/signup_confirm_password"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="32" />
+
+            <LinearLayout
+                android:id="@+id/llt_register_next"
+                style="@style/llt_v.45"
+                android:gravity="center"
+                android:background="@drawable/yellow_8" >
+
+                <TextView
+                    style="@style/text.white.20"
+                    android:text="@string/signup_next"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

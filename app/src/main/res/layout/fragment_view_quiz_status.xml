@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.FriendsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="28dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text.black.18"
+                    android:text="@string/txt_submitted_date" />
+
+                <TextView
+                    android:id="@+id/txt_submitted_date"
+                    style="@style/text.green.20"
+                    android:layout_marginStart="24dp"
+                    android:text="04/05/2020 18:35" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_quiz_one"
+                    style="@style/text.black.16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quizOne" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="4dp"
+                    android:padding="3dp"
+                    android:background="@color/colorquizBorder"
+                    android:gravity="center">
+
+                    <com.laodev.focus.uis.QuizUI
+                        android:id="@+id/qui_temp_yes_one"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        app:isSelected="false"
+                        app:title="SI"
+                        app:clickable="false"/>
+
+                    <com.laodev.focus.uis.QuizUI
+                        android:id="@+id/qui_temp_no_one"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginStart="3dp"
+                        android:layout_height="match_parent"
+                        app:isSelected="true"
+                        app:title="NO"
+                        app:clickable="false"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_quiz_two"
+                    style="@style/text.black.16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quiz_two" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="4dp"
+                    android:padding="3dp"
+                    android:background="@color/colorquizBorder"
+                    android:gravity="center">
+
+                    <com.laodev.focus.uis.QuizUI
+                        android:id="@+id/qui_temp_yes_two"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        app:isSelected="false"
+                        app:title="SI"
+                        app:clickable="false"/>
+
+                    <com.laodev.focus.uis.QuizUI
+                        android:id="@+id/qui_temp_no_two"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginStart="3dp"
+                        android:layout_height="match_parent"
+                        app:isSelected="true"
+                        app:title="NO"
+                        app:clickable="false"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_quiz_thr"
+                    style="@style/text.black.16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quiz_three" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="4dp"
+                    android:padding="3dp"
+                    android:background="@color/colorquizBorder"
+                    android:gravity="center">
+
+                    <com.laodev.focus.uis.QuizUI
+                        android:id="@+id/qui_temp_yes_thr"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        app:isSelected="false"
+                        app:title="SI"
+                        app:clickable="false"/>
+
+                    <com.laodev.focus.uis.QuizUI
+                        android:id="@+id/qui_temp_no_thr"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginStart="3dp"
+                        android:layout_height="match_parent"
+                        app:isSelected="true"
+                        app:title="NO"
+                        app:clickable="false"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_quiz_four"
+                    style="@style/text.black.16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quiz_hour" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="4dp"
+                    android:padding="3dp"
+                    android:background="@color/colorquizBorder"
+                    android:gravity="center">
+
+                    <com.laodev.focus.uis.QuizUI
+                        android:id="@+id/qui_temp_yes_four"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        app:isSelected="false"
+                        app:title="SI"
+                        app:clickable="false"/>
+
+                    <com.laodev.focus.uis.QuizUI
+                        android:id="@+id/qui_temp_no_four"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginStart="3dp"
+                        android:layout_height="match_parent"
+                        app:isSelected="true"
+                        app:title="NO"
+                        app:clickable="false"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="16dp">
+
+                    <TextView
+                        style="@style/text.black.20"
+                        android:text="@string/detail_status"
+                        android:layout_marginStart="24dp"/>
+
+                    <ImageView
+                        android:id="@+id/img_status"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="12dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_covid_no" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

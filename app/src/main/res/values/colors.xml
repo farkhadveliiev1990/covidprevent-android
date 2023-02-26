@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#19b590</color>
+    <color name="colorPrimaryDark">#19b590</color>
+    <color name="colorAccent">#19c590</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGreyDestination">#F8F8F8</color>
+    <color name="colorTextGrey">#C8C7CC</color>
+    <color name="colorViewLine">#20000000</color>
+    <color name="colorTextBlack">#df000000</color>
+    <color name="colorTextBlue">#1f76eb</color>
+
+    <color name="colorGradientStart">#35eb7d</color>
+    <color name="colorGradientEnd">#119b8e</color>
+    <color name="color_grey_destination">#F8F8F8</color>
+
+    <color name="coloFloatingButton">#b3e852</color>
+
+    <color name="colorquizNo">#689999</color>
+    <color name="colorquizYes">#d9d9d9</color>
+    <color name="colorquizBorder">#fffece</color>
+
+    <color name="colorGreen">#57f86a</color>
+    <color name="colorRed">#f9082a</color>
+
+    <array name="colors">
+        <item>#ff0000</item>
+        <item>#ff0000</item>
+        <item>#ff0000</item>
+        <item>#ff0000</item>
+        <item>#ff0000</item>
+        <item>#0000ff</item>
+        <item>#0000ff</item>
+        <item>#0000ff</item>
+        <item>#0000ff</item>
+        <item>#0000ff</item>
+    </array>
+
+</resources>

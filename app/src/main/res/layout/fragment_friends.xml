@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp"
+    android:background="@color/color_grey_destination" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lst_friends"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_home_qr"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llt_friend_no_friends"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txt_friend_no_friends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            android:text="@string/msg_no_friends"
+            android:textSize="24dp"
+            android:textColor="@color/colorTextBlack"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/llt_floating"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp" >
+
+        <ImageView
+            android:id="@+id/img_friend_add"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_add_circle_green"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/llt_floating"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="8dp" >
+
+        <ImageView
+            android:id="@+id/img_friend_create_qr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_account_circle_green"/>
+    </LinearLayout>
+
+</RelativeLayout>

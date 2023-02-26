@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">FOCUS</string>
+
+    <string name="package_name" translatable="false">com.laodev.focus</string>
+    <string name="bottom_my_id" translatable="false">Mi ID</string>
+    <string name="bottom_contactos" translatable="false">Contactos</string>
+    <string name="profile_avatar_temp_url_1" translatable="false">https://firebasestorage.googleapis.com/v0/b/covidpy-android.appspot.com/o/ic_profile_template.png?alt=media</string>
+    <string name="profile_avatar_temp_url_2" translatable="false">token=617e4c58-fa47-4019-ae29-7729bbb9501c</string>
+    <string name="google_map_api" translatable="false">AIzaSyD0gzQ43R7S8iiJLL-oUjesnc6hu-EvCII</string>
+    <string name="alert_yes" translatable="false">Yes</string>
+    <string name="alert_no" translatable="false">No</string>
+    <string name="txt_address" translatable="false">Novohrad-Volyns\'kyi district, Zhytomyr Oblast, Ukraine</string>
+    <string name="txt_pre_username" translatable="false">Jhon Doe</string>
+
+    <string name="alert_onback">¿Estás segura de salir de la aplicación?</string>
+    <string name="bottom_profile">Perfil</string>
+    <string name="bottom_quiz">Reportar Estado</string>
+    <string name="bottom_statistics">Estadísticas</string>
+    <string name="bottom_risk_zone" translatable="false">Zona Riesgo</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_save">Guardar</string>
+    <string name="camera_access_denied">Acceso a la cámara denegado.</string>
+    <string name="cancel">Cancelar</string>
+    <string name="detail_friends">Contactos</string>
+    <string name="detail_province" translatable="false">Provincia</string>
+    <string name="detail_location">Ubicación:</string>
+    <string name="detail_phone_number">Número de teléfono</string>
+    <string name="detail_status">COVID Estado:</string>
+    <string name="detial_name">Nombre</string>
+    <string name="edit">Editar</string>
+    <string name="enable_gps">Habilitar GPS</string>
+    <string name="faile_update_profile">Error al actualizar el perfil</string>
+    <string name="female">Femenino</string>
+    <string name="gps_disabled">El GPS está deshabilitado en su dispositivo. ¿Permitirle?</string>
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="loading_now">Cargando ahora ...</string>
+    <string name="location_permission">Esta aplicación necesita el permiso de ubicación, acepta usar la funcionalidad de ubicación</string>
+    <string name="male">Masculino</string>
+    <string name="msg_exist_firend">Este usuario ya lo agregó a su lista de amigos.</string>
+    <string name="msg_fail_scan_qr">No se pudo agregar un amigo, vuelva a tomar el escáner QR.</string>
+    <string name="msg_fail_to_add_friend">No se pudo agregar amigo</string>
+    <string name="msg_failed_get_friends">No se pudo obtener la información de la lista de amigos, verifique la red.</string>
+    <string name="msg_get_touch_new_friend">Acabas de ponerte en contacto con:</string>
+    <string name="verification_code_wrong">El código de verificación es incorrecto</string>
+    <string name="unknown_response">Respuesta de inicio de sesión desconocida</string>
+    <string name="msg_no_friends">Aún no hay amigos, agregue amigos.</string>
+    <string name="no_account_with_phone">No hay una cuenta con su número de teléfono, cree una cuenta ahora.</string>
+    <string name="no_internet_connection">No hay conexión a internet, por favor verifique internet.</string>
+    <string name="permission_needed">Permiso de ubicación necesario</string>
+    <string name="profile_full_name">Nombre completo</string>
+    <string name="profile_gender">Género</string>
+    <string name="quizOne">Temperatura (más 37 ° C) sensación de calor</string>
+    <string name="quiz_hour">Dificultad para respirar</string>
+    <string name="quiz_perform_date">Fecha:</string>
+    <string name="quiz_save_error">Error de la base de datos, verifique la red y haga clic en el botón Guardar nuevamente.</string>
+    <string name="quiz_save_success">Éxito al registrar guardar cuestionario.</string>
+    <string name="quiz_three">¿Tiene Tos?</string>
+    <string name="quiz_two">Dolor de garganta</string>
+    <string name="save">Guardar</string>
+    <string name="select_picture">Seleccionar imagen</string>
+    <string name="send_to">Hemos enviado un código SMS a</string>
+    <string name="signin">Registrarse</string>
+    <string name="signin_comment">Inicia sesión con tu número de teléfono</string>
+    <string name="signin_email">Email</string>
+    <string name="signin_forget_password">Contraseña olvidada</string>
+    <string name="signin_goto_register">aquí</string>
+    <string name="signin_goto_register_comment">Inicie sesión con el número de teléfono, haga clic</string>
+    <string name="signin_password">Contraseña</string>
+    <string name="signup">Regístrate</string>
+    <string name="signup_comment">Regístrese con su información</string>
+    <string name="signup_confirm">Hemos enviado un código SMS a</string>
+    <string name="signup_confirm_password">Confirmar</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_finish">Terminar</string>
+    <string name="signup_goto_login">aquí</string>
+    <string name="signup_goto_login_comment">Inicie sesión con el teléfono, haga clic</string>
+    <string name="signup_lat">Lat:</string>
+    <string name="signup_location_hint">Haga clic aquí para obtener la ubicación</string>
+    <string name="signup_long">Long:</string>
+    <string name="signup_map_empty">Sin mapa</string>
+    <string name="signup_map_parsing_applied">Mapa: Error al analizar el estilo.</string>
+    <string name="signup_map_parsing_error">Mapa: no se puede encontrar el estilo.</string>
+    <string name="signup_map_parsing_failed">Mapa: Error al analizar el estilo.</string>
+    <string name="signup_next">Siguiente</string>
+    <string name="signup_password">Contraseña</string>
+    <string name="signup_phone_nymber">número de teléfono</string>
+    <string name="signup_phone_resend">Por favor, introduzca su número de teléfono</string>
+    <string name="signup_resend_title">Reenviar</string>
+    <string name="signup_username">Nombre de usuario</string>
+    <string name="signup_verification_title">Por favor, introduzca el código de verificación a continuación</string>
+    <string name="signup_verify">Enviar código</string>
+    <string name="signup_verify_code">Código de verificación</string>
+    <string name="signup_verify_comment">Por favor, introduzca su número de teléfono.</string>
+    <string name="signup_verify_failure">Error al verificar</string>
+    <string name="signup_verify_success">Verificado con éxito</string>
+    <string name="source">Fuente</string>
+    <string name="statistic_no_quiz">Aún no hay cuestionario, por favor hágalo.</string>
+    <string name="statistics_pre_title">Control realizado</string>
+    <string name="statistics_temp_date">Control realizado 30/03/2020 12:30</string>
+    <string name="unknown_error">Se produjo un error desconocido</string>
+    <string name="txt_view_friend_statistics">Para ver las estadísticas de este amigo, haz clic.</string>
+    <string name="txt_submitted_date">Fecha de envío:</string>
+    <string name="txt_click_here">aquí:</string>
+    <string name="txt_age">Edad</string>
+    <string name="toolbar_title_new_friend">Nuevo Contacto</string>
+    <string name="toobar_title_view_my_quiz">Mi Estado</string>
+    <string name="toobar_title_view_friend_quiz">Estado del cuestionario de amigo</string>
+    <string name="toobar_title_qr_scann">Escáner QR</string>
+    <string name="toobar_title_friend_info">Información de Contacto</string>
+    <string name="toast_valid_phone_number">Por favor ingrese un número de teléfono válido.</string>
+    <string name="toast_username_short">Rellene nombre de usuario con más de 5 características.</string>
+    <string name="toast_username_empty">Por favor complete el campo de nombre de usuario</string>
+    <string name="toast_something_went_wrong_net">Algo salió mal, por favor verifique la conexión a internet</string>
+    <string name="toast_reister_failed">Fallo el registro. Por favor revise su red.</string>
+    <string name="toast_phonenumber_empty">Por favor complete el número de teléfono</string>
+    <string name="toast_password_short">Rellene contraseña más de 6 características</string>
+    <string name="toast_password_empty">Rellene contraseña más de 6 características</string>
+    <string name="toast_login_failed">Error al iniciar sesión. Verifique su red o correo electrónico y contraseña.</string>
+    <string name="toast_location_empty">Por favor llene la ubicación</string>
+    <string name="toast_image_upload_failed">La carga de la imagen ha fallado.</string>
+    <string name="toast_email_invalid">Email inválido</string>
+    <string name="toast_email_empty">Por favor complete el campo Correo electrónico</string>
+    <string name="toast_confirm_password">Por favor confirme la contraseña</string>
+    <string name="toast_change_avatar">Imagen de perfil modificada.</string>
+    <string name="toast_change_not_avatar" translatable="false">No se pudo cargar la imagen.</string>
+    <string name="title_return">Volver</string>
+    <string name="title_my_qr_code">Código QR para mi identificación</string>
+    <string name="success_update_profile">Tu perfil se actualizó correctamente</string>
+    <string name="temp_location">La dirección actual es ******.</string>
+    <string name="covid_status" translatable="false">Estado</string>
+    <string name="location" translatable="false">Dirección</string>
+    <string name="new_quiz" translatable="false">Nuevo Estado</string>
+    <string name="notification_title" translatable="false">FOCUS</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="verification_code_alert" translatable="false">Por favor ingrese el código de verificación</string>
+    <string name="verification_invalid_alert" translatable="false">Código no válido enviado, por favor envíe nuevamente</string>
+    <string name="alert_phone_number" translatable="false">Por favor ingrese el número de teléfono</string>
+    <string name="alert_connect_server" translatable="false">Conectar servidor</string>
+    <string name="error_login" translatable="false">Error de inicio de sesión</string>
+    <string name="hint_phone_number" translatable="false">Número de teléfono</string>
+    <string name="verify_button_title" translatable="false">Verificar</string>
+    <string name="hint_verification_code" translatable="false">Código de verificación</string>
+    <string name="btn_title_login" translatable="false">Log in</string>
+    <string name="toast_verification_sent" translatable="false">Código de verificacion enviado. Por favor ingrese ese código a continuación.</string>
+    <string name="toast_invalid_number" translatable="false">El número de teléfono es incorrecto, ingrese nuevamente un número válido.</string>
+    <string name="mapbox_access_token" translatable="false">pk.eyJ1IjoiYmdvbGQxMTE4IiwiYSI6ImNrOHRhZnczajAxZmkzbHA0OGtjczAyem4ifQ.OXah5JaOsfJg0Y4m_7Vchg</string>
+    <string name="location_not_permission" translatable="false">Permiso de ubicación del usuario no habilitado.</string>
+    <string name="enable_location" translatable="false">Por favor, habilite la ubicación.</string>
+    <string name="enable_permission" translatable="false">Habilite el permiso de ubicación o verifique Internet.</string>
+    <string name="toast_set_location" translatable="false">Debe establecer la ubicación, habilite el permiso para la ubicación.</string>
+    <string name="toast_thisis_you" translatable="false">Esta es tu cuenta.</string>
+    <string name="txt_province_district" translatable="false">Por favor seleccione provincia y distrito.</string>
+    <string name="toast_camera_permission_denied" translatable="false">Permiso de cámara denegado</string>
+    <string name="error_self_qr">Este es tu código qr.</string>
+    <string name="login_no_register">Ir a la página de registro, haga clic</string>
+    <string name="login_register">aquí</string>
+    <string name="register_province">Provincia</string>
+    <string name="register_district">Distrito</string>
+    <string name="profile_phone">NºCelular</string>
+    <string name="profile_province">Departamento</string>
+    <string name="alert_delet_content">¿Quieres eliminar a esta usuaria?</string>
+    <string name="alert_no_friend">No amiga</string>
+    <string name="toast_location_permission_denided">Permiso de ubicación denegado.</string>
+    <string name="top_notification">Notification</string>
+    <string name="title_noti">Notificación</string>
+    <string name="error_server">Error del Servidor.</string>
+    <string name="toast_call_phone_permission">Permiso de llamada telefónica denegado.</string>
+
+</resources>
